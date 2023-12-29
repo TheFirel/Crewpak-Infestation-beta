@@ -1,0 +1,103 @@
+
+[milestones]
+	#Number of hearts you start out with.
+	#Range: 0 ~ 1000
+	baseHearts = 10
+	#Number of hearts you gain for reaching a new milestone.
+	#Range: 0 ~ 1000
+	heartsPerMilestone = 2
+	#A list of numbers of unique foods you need to eat to unlock each milestone, in ascending order. Naturally, adding more milestones lets you earn more hearts.
+	milestones = [5, 10, 15, 20, 25]
+
+[filtering]
+	#Foods in this list won't affect the player's health nor show up in the food book.
+	blacklist = [
+		minecraft:apple, 
+		minecraft:potato,
+		minecraft:poisonous_potato, 
+		minecraft:sweet_berries, 
+		minecraft:glow_berries, 
+		minecraft:chorus_fruit, 
+		minecraft:carrot, 
+		minecraft:beetroot, 
+		minecraft:beef, 
+		minecraft:porkchop, 
+		minecraft:chicken, 
+		minecraft:mutton,
+		minecraft:rabbit, 
+		minecraft:cod, 
+		minecraft:salmon,
+		minecraft:tropical_fish, 
+		minecraft:pufferfish,
+		minecraft:rotten_flesh, 
+		minecraft:spider_eye, 
+		minecraft:honey_bottle,
+		nethersdelight:hoglin_loin,
+		nethersdelight:hoglin_ear,
+		nethersdelight:strider_slice, 
+		nethersdelight:ground_strider, 
+		nethersdelight:warped_moldy_meat, 
+		nethersdelight:proplepearl,
+		alexsmobs:lobster_tail,
+		alexsmobs:moose_ribs,
+		alexsmobs:sopa_de_macaco,
+		alexsmobs:blobfish,
+		alexsmobs:kangaroo_meat,
+		alexsmobs:gongylidia,
+		alexsmobs:cosmic_cod
+		alexsmobs:rainbow_jelly
+		alexsmobs:raw_catfish
+		alexsmobs:mosqito_repellent_stew,
+		ends_delight:chorus_fruit_grain,
+		ends_delight:chorus_succulent,
+		ends_delight:liquid_dragon_egg,
+		ends_delight:shulker_meat,
+		ends_delight:shulker_meat_slice,
+		ends_delight:dragon_leg,
+		ends_delight:raw_dragon_meat,
+		ends_delight:raw_dragon_meat_cuts,
+		ends_delight:raw_ender_mite_meat,
+		ends_delight:stir_fried_shulker_meat,
+		ends_delight:grilled_shulker,
+		farmersdelight:cabbage,
+		farmersdelight:tomato,
+		farmersdelight:onion,
+		farmersdelight:fried_egg,
+		farmersdelight:tomato_sauce,
+		farmersdelight:wheat_dough,
+		farmersdelight:raw_pasta,
+		farmersdelight:pumpkin_slice,
+		farmersdelight:cabbage_leaf,
+		farmersdelight:minced_beef,
+		farmersdelight:beef_patty,
+		farmersdelight:chicken_cuts,
+		farmersdelight:cooked_chicken_cuts,
+		farmersdelight:bacon,
+		farmersdelight:cooked_bacon,
+		farmersdelight:cod_slice,
+		farmersdelight:cooked_cod_slice,
+		farmersdelight:salmon_slice,
+		farmersdelight:cooked_slamon_slice,
+		farmersdelight:mutton_chops,
+		farmersdelight:cooked_mutton_chops,
+		farmersdelight:ham,
+		farmersdelight:smoked_ham,
+		farmersdelight:pie_crust,
+		farmersdelight:nether_salad,
+		farmersdelight:dog_food,
+		artifacts:everlasting_beef,
+		artifacts:eternal_steak,
+		relics:infinity_ham
+		]
+	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
+	whitelist = []
+	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
+	#Range: 0 ~ 1000
+	minimumFoodValue = 1
+
+[miscellaneous]
+	#Whether or not to reset the food list on death, effectively losing all bonus hearts.
+	resetOnDeath = false
+	#If true, eating foods outside of survival mode (e.g. creative/adventure) is not tracked and thus does not contribute towards progression.
+	limitProgressionToSurvival = false
+

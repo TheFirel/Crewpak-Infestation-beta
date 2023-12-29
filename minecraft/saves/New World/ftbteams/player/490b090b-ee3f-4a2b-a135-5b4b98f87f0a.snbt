@@ -1,0 +1,17 @@
+{
+	id: "490b090b-ee3f-4a2b-a135-5b4b98f87f0a"
+	type: "player"
+	player_name: "TheFirel"
+	ranks: {
+		490b090b-ee3f-4a2b-a135-5b4b98f87f0a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "TheFirel"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59B0FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

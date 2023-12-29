@@ -1,0 +1,14 @@
+name = "YUNG's Better End Island"
+filename = "YungsBetterEndIsland-1.20-Forge-2.0.4.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/2BwBOmBQ/versions/J2sdehqA/YungsBetterEndIsland-1.20-Forge-2.0.4.jar"
+hash-format = "sha512"
+hash = "5e6c6a889ab10591aef2f2b3ff91461ec1eb2e32a4d0e1c333b28b5cb711d7d87a905fa6c85b8e20027c4c8b7735b19c136f198840c80cfb8c3e5e29979d094c"
+
+[update]
+[update.modrinth]
+mod-id = "2BwBOmBQ"
+version = "J2sdehqA"

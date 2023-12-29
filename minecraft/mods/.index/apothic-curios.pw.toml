@@ -1,0 +1,14 @@
+name = "Apothic Curios"
+filename = "ApothicCurios-1.20.1-1.0.3.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "5cceac6b0b8dc97551d67172f53b45b10cf2cbd5"
+
+[update]
+[update.curseforge]
+file-id = 4966964
+project-id = 950712

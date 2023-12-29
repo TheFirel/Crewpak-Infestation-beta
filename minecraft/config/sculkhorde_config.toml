@@ -1,0 +1,65 @@
+
+["Gravemind Variables"]
+	#How much mass is needed for the Gravemind to enter the mature stage? (Default 20000)
+	#Range: > 0
+	gravemind_mass_goal_for_mature_stage = 15000
+	#How much mass is needed for the Gravemind to enter the immature stage? (Default 5000)
+	#Range: > 0
+	gravemind_mass_goal_for_immature_stage = 4000
+
+["Sculk Raid Variables"]
+	#Should sculk raids be enabled? (Default true)
+	sculk_raid_enabled = true
+	#How long should the Sculk Enderman scout for? (Default 8)
+	#Range: > 0
+	sculk_raid_enderman_scouting_duration_minutes = 8
+	#How long should the global cooldown between raids be in minutes? (Default 300)
+	#Range: > 0
+	sculk_raid_global_cooldown_between_raids_minutes = 60
+	#How long should the no raid zone last at a location in minutes? This occurs when a raid succeeds or fails so that the same location is not raided for a while. (Default 480)
+	#Range: > 0
+	sculk_raid_no_raid_zone_duration_minutes = 60
+
+["General Variables"]
+	#Should the Sculk Horde load chunks? If disabled, and will ruin the intended experience. For example, raids wont work properly (Default true)
+	chunk_loading_enabled = true
+	#Should the Sculk Horde infest blocks? (Default true)
+	block_infestation_enabled = true
+
+["Infestation / Purification Variables"]
+	#How much faster or slower should infestation spread? (Default 0)
+	#Range: -10.0 ~ 10.0
+	infestation_speed_multiplier = 0.0
+	#How much faster or slower should purification spread? (Default 0)
+	#Range: -10.0 ~ 10.0
+	purification_speed_multiplier = 0.0
+	#How far should the infestation purifier reach? (Default 5)
+	#Range: 0 ~ 100
+	purifier_range = 48
+
+["Sculk Mite Variables"]
+	#Should sculk mites spawn in deep dark? (Default false)
+	should_sculk_mites_spawn_in_deep_dark = true
+
+["Mod Compatability"]
+	#Should the Sculk Horde attack mobs from the mod 'Fungal Infection:Spore'? (Default false)
+	target_spore_entities = false
+	#Should the Sculk Horde attack mobs from the mod 'From Another World'? (Default false)
+	target_faw_entities = false
+
+["Sculk Node Variables"]
+	#How many hours should pass before another Sculk node can spawn? (Default 8)
+	#Range: > 0
+	sculk_node_spawn_cooldown_hours = 2
+	#How many chunks should be loaded around a sculk node? (Default 15)
+	#Range: 0 ~ 15
+	sculk_node_chunkload_radius = 15
+
+["Experimental Features"]
+	#Should experimental features be enabled? (Default false)
+	experimental_features_enabled = false
+	#Should squad mechanics be enabled? (Default true)
+	squad_mechanics_enabled = true
+	#Should sculk phantoms be enabled? (Default true)
+	sculk_phantoms_enabled = true
+

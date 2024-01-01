@@ -279,7 +279,7 @@ mobDropsEnabled = true
 		#Determines if almost destroyed charms stay displayed in the hud
 		keepAlmostDestroyedDisplayed = true
 		#List of hostile entities that are not supposed to have mob charms registered for them
-		entityBlockList = ["minecraft:ender_dragon", "minecraft:wither"]
+		entityBlockList = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:warden", "sculkhorde:sculk_spore_spewer", "sculkhorde:sculk_mite", "sculkhorde:sculk_mite_aggressor", "sculkhorde:sculk_zombie", "sculkhorde:sculk_spitter", "sculkhorde:sculk_creeper", "sculkhorde:sculk_hatcher", "sculkhorde:sculk_vindicator", "sculkhorde:sculk_ravager", "sculkhorde:sculk_phantom", "sculkhorde:sculk_enderman"]
 
 	#Mob Charm Fragment Settings
 	[items.mobCharmFragment]

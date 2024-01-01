@@ -1,6 +1,12 @@
 {
   "blacklisted_entities": [
     "any_mod:example_entity",
-    "any_mod:another_example_entity"
+    "any_mod:another_example_entity",
+	"alexsmobs:crocodile",
+	"alexsmobs:komodo_dragon",
+	"alexsmobs:tiger",
+	"alexsmobs:cachalot_whale",
+	"alexsmobs:fly",
+	"alexsmobs:guster"
   ]
 }

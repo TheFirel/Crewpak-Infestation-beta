@@ -1,4 +1,4 @@
-[19:57:14] [WARN] [FabricLoader/Resolution]: Mod resolution failed
-[19:57:14] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE bclib 2.1.8 {depends minecraft @ [1.19 || 1.19.1 || 1.19.2]}, ROOT_FORCELOAD_SINGLE bclib 2.1.8]
-[19:57:14] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP bclib 2.1.8 {depends minecraft @ [1.19 || 1.19.1 || 1.19.2]}, HARD_DEP betterend 4.0.11 {depends bclib @ [3.0.x]}, NEG_HARD_DEP betterend 4.0.11 {breaks bclib @ [<3.0.14]}]
-[19:57:14] [INFO] [FabricLoader/Resolution]: Fix: add [], remove [], replace [[bclib 2.1.8] -> add:bclib 3.0- ([(-âˆž,âˆž)]), [betterend 4.0.11] -> add:betterend 1 ([(-âˆž,âˆž)])]
+[01:23:06] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[01:23:06] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE betternether 7.1.5 {depends minecraft @ [1.19 || 1.19.1 || 1.19.2]}, ROOT_FORCELOAD_SINGLE betternether 7.1.5]
+[01:23:06] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP betternether 7.1.5 {depends minecraft @ [1.19 || 1.19.1 || 1.19.2]}, HARD_DEP betternether 7.1.5 {depends bclib @ [2.1.x]}]
+[01:23:06] [INFO] [FabricLoader/Resolution]: Fix: add [], remove [], replace [[betternether 7.1.5] -> add:betternether 1 ([(-âˆž,âˆž)])]

@@ -1,0 +1,99 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "infestation"
+	group: ""
+	icon: "minecraft:sculk_sensor"
+	id: "58B06F4DC9374E79"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&5Sculk Horde&r is a mod that makes the sculk much, much angrier. "
+				""
+				"Run. But before you do- maybe give this a read. "
+				""
+				"You have about 30 minutes to prepare for the oncoming tide. After that, the Horde will awaken to your presence and begin to spread. It cannot be stopped in a way that matters- but you mustn't give up. Life as we know it depends on your persistence, your survival- and your eternal war against the dark."
+				""
+				"You, Paragon, are the one being that stands between the horde and oblivion. Perhaps you brought some other Paragons as friends- keep them close, lest they turn to the dark. Life and death hangs in a precarious balance, and there are many strengths and weaknesses to embracing either side. &l&eAnyone could turn on you, at any moment. You may even find yourself turning on them."
+			]
+			id: "0B1B89D43F8B6F8F"
+			subtitle: "Begin your journey."
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:sculk"
+				id: "32798E9CE2D840A1"
+				title: "Run."
+				type: "dimension"
+			}]
+			title: "The Horde is Coming..."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The nether is not an escape. It is simply a different beast. Horned, angry, and on fire, instead of cold and devouring."
+				""
+				"Bosses are much more common here, enemies spawn more often, and there are many unique mobs that will present challenges that may make you wistfully remember the blackened earth."
+				""
+				"If you made it here before the 30 minute timer, give yourself a pat on the back! You're almost 1/10th as good as a speedrunner!"
+			]
+			id: "6280346C67AFABC1"
+			subtitle: "Enter the Nether, and wish it got easier."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "25482AEDF1FF9703"
+				title: "You tried, for what it's worth."
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The End is famously an easy fount of power for a prospective Paragon. No longer. The End has adapted to the attempted intrusions of the Horde."
+				""
+				"That portal was closed for a reason. "
+				""
+				"Bosses are as common as normal enemies, and they are all at maximum strength. The horde legion looks like stuffed animals beside them. It may be worth embracing them, after all..."
+			]
+			id: "6B60BF3C51EBEF53"
+			subtitle: "Escape to the End?"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "0CF36E5D90F3DAD6"
+				title: "Cute."
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The Otherside is worse than hostile. It's angry. You beat a hornet's nest with a stick and the stings are coming."
+				""
+				"But there's a way to survive, even here. In a cruel and twisted world of death and twisted growth, your best chance &5is to embrace the Sculk, and cross over to the Otherside."
+			]
+			id: "5E571FE569C9F08D"
+			rewards: [{
+				id: "45441B00BF4402A9"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			subtitle: "Cross into the Otherside."
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:soul_crystal"
+				id: "4BBABC37444EEAD7"
+				title: "Try and run, to the otherside."
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "&6Infestation"
+}

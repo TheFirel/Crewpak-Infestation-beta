@@ -1,14 +1,14 @@
 name = "OctoLib"
-filename = "octolib-0.1.jar"
+filename = "octolib-1.20.1-0.3.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "6ad287b7eb3e6bae0ee438589e406c6b0f92501f"
+hash = "cc372b6bbb0fe541c64773c02c42a2a8c95fc84c"
 
 [update]
 [update.curseforge]
-file-id = 4771977
+file-id = 5115332
 project-id = 916747

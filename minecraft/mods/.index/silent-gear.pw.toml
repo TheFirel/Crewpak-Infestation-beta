@@ -1,0 +1,14 @@
+name = "Silent Gear"
+filename = "silent-gear-1.20.1-3.6.3.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/73mSSnCf/versions/VA6DRIpe/silent-gear-1.20.1-3.6.3.jar"
+hash-format = "sha512"
+hash = "cd44de91ecce6f04bb83283e43bf4dd52e8663f568f268509366d64e94c805bf006b5801f804930511322b3b088edcb4908c64cf72d61df648dfe91e27e6c728"
+
+[update]
+[update.modrinth]
+mod-id = "73mSSnCf"
+version = "VA6DRIpe"

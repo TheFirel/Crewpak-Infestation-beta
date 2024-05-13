@@ -1,4 +1,0 @@
-[01:23:06] [WARN] [FabricLoader/Resolution]: Mod resolution failed
-[01:23:06] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE betternether 7.1.5 {depends minecraft @ [1.19 || 1.19.1 || 1.19.2]}, ROOT_FORCELOAD_SINGLE betternether 7.1.5]
-[01:23:06] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP betternether 7.1.5 {depends minecraft @ [1.19 || 1.19.1 || 1.19.2]}, HARD_DEP betternether 7.1.5 {depends bclib @ [2.1.x]}]
-[01:23:06] [INFO] [FabricLoader/Resolution]: Fix: add [], remove [], replace [[betternether 7.1.5] -> add:betternether 1 ([(-âˆž,âˆž)])]

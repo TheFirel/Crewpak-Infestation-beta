@@ -48,18 +48,45 @@
 	target_faw_entities = false
 
 ["Sculk Node Variables"]
-	#How many hours should pass before another Sculk node can spawn? (Default 8)
-	#Range: > 0
-	sculk_node_spawn_cooldown_hours = 2
 	#How many chunks should be loaded around a sculk node? (Default 15)
 	#Range: 0 ~ 15
 	sculk_node_chunkload_radius = 15
+	#How many minutes should pass before another Sculk node can spawn? (Default 120)
+	#Range: > 0
+	sculk_node_spawn_cooldown_minutes = 120
 
 ["Experimental Features"]
 	#Should experimental features be enabled? (Default false)
 	experimental_features_enabled = false
-	#Should squad mechanics be enabled? (Default true)
-	squad_mechanics_enabled = true
-	#Should sculk phantoms be enabled? (Default true)
-	sculk_phantoms_enabled = true
+	#Enable the spawning of Sculk Salmon from Summoners (Default true). Requires restart on change.
+	enable_sculk_salmon = true
+	#Should the Sculk Horde be unable to function without Ancient Node Activation (Default false).
+	disable_sculk_horde_unless_activated = false
+
+["Trigger Automatically Variables"]
+	#Should the Sculk Horde start automatically? Requires that chunk loading is enabled to work reliably, otherwise will only trigger if the ancient node's chunk is loaded. If enabled on a save where previously disabled, the node will trigger automatically if the time conditions are met. (Default false)
+	trigger_ancient_node_automatically = false
+	#How many days to wait before triggering the ancient node? (Default 0)
+	#Range: > 0
+	trigger_ancient_node_wait_days = 0
+	#What time of day in ticks must pass before triggering the ancient node after the wait days have elapsed? If wait days is set to 0, set time of day to a time greater than 1000 ticks to allow for world startup and lag to finish (Default 2000)
+	#Range: 0 ~ 23999
+	trigger_ancient_node_time_of_day = 2000
+
+["Emergency Manual Cursor Tick Control"]
+	#How many cursors need to exist for this system to kick in. (Default 300)
+	#Range: > 0
+	cursors_threshold_for_activation = 300
+	#How many cursors should we tick, per in game tick. (Default 50)
+	#Range: 0 ~ 100
+	cursors_to_tick_per_tick = 50
+	#How many ticks should there be between intervals of ticking cursors. (Default 1)
+	#Range: 0 ~ 100
+	delay_between_cursor_tick_interval = 1
+	#50% Chance for cursors to discard themselves upon reaching threshold. (Default false)
+	thanos_snap_cursors_after_reaching_threshold = false
+
+["Sculk Phantom Variables"]
+	#Should sculk phantoms load chunks? (Default true)
+	should_phantoms_load_chunks = true
 

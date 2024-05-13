@@ -37,7 +37,7 @@
 	off_hand = false
 	#quiver
 	quiver = true
-	#Players can hide items
+	#Players can hide items with the toggle settings
 	canhideitems = true
 	#Players can change the position and rotation of the displayed items
 	can_change_pos_and_rot = true
@@ -47,6 +47,12 @@
 	attachment = "1-body,2-body,3-body,4-lleg,5-rleg,6-lleg,7-body,8-body,9-rleg,shield-body,banner-head,offhand-lleg,quiver-body"
 	#Which active slot and equipment should move the item model away
 	slot_mover = "none;z;+_none,chest,1;z;+_none,legs;x;-_none,legs;x;+_none,legs,3;x;-_none,legs,4;x;+_none,chest,legs,1;z;+_none,shield;z;+_none,legs,3,5;x;-_none;z;-_none;z;-_none,legs,4,6;x;+_none;z;+"
+	#Players can change the movers of the slots
+	can_change_movers = true
+	#Players can change their unique item settings
+	can_change_uit = true
+	#Players can change their whitelist
+	can_change_scale = true
 
 	[model_options.positions_rotations]
 		#Position and rotation settings

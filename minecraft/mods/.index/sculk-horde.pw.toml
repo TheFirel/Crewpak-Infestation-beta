@@ -1,0 +1,14 @@
+name = "Sculk Horde"
+filename = "sculkhorde-1.20.1-0.9.0-Beta5.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "d14674a57ccc9a787b9cf11d90ca123f5555d951"
+
+[update]
+[update.curseforge]
+file-id = 5153934
+project-id = 501766

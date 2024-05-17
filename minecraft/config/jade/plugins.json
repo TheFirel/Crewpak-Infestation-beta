@@ -56,6 +56,10 @@
   "hammerlib": {
     "root": true
   },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true
+  },
   "reliquary": {
     "pedestal": true,
     "altar": true,
